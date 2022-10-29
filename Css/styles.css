@@ -1,0 +1,98 @@
+body{
+  background-color: white;
+ font-family: 'Roboto', sans-serif;
+}
+
+span{ color: #EB6306;}
+
+.top-part{
+  background-image: url("../Images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 500px; */
+  width: 100%;
+  padding-bottom:40%;
+  background-color: #F7F6F5;
+}
+
+.navbar .navbar-brand{
+  font-family: cursive;
+}
+.nav-item .nav-link{
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.pizza{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family:'Leckerli One', Helvetica, sans-serif;
+  margin-top: 50px;
+  color: #eb6306;
+}
+
+
+h3{
+  font-family:serif;
+  text-transform: uppercase;
+  color: #ff8c00;
+  font-size: 30px;
+  padding-top:100px;
+  margin-bottom: 0;}
+
+
+/* social buttons */
+.social{
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  margin-top:30px;
+}
+.social:hover{
+  color: grey;
+}
+
+
+/* footer */
+.footer{
+  text-align: center;
+  height: 100px;
+  background-color: #eb6306;}
+
+/* contact page */
+.contact{
+  margin: auto;
+  height: 300px;
+  width: 500px;
+  background-color: blue;}
+
+/* Tablet Screen */
+@media screen and (min-width:767px) and (max-width:1023px) {
+  .img-fluid{
+    margin-top: 40px;
+  }
+  h4{padding-top: 40px;}
+}
+
+/* Phone screen */
+@media screen and (max-width:767px) {
+  .img-fluid{
+    margin-top: 40px;}
+    h4{padding-top: 40px;
+    }
+}
+
+/* Laptop screen */
+@media screen and (min-width:1024px){
+  .img-fluid{
+    margin-bottom: 20px;}
+    .abt{margin-top: 50px;}
+    .abt-cake{
+      margin-top: 150px;
+      padding-left: 30px;
+
+    }
+  }
